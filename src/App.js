@@ -3,6 +3,8 @@ import { BrowserRouter } from 'react-router-dom';
 import './App.css';
 import Layout from './Layout';
 import Classroom from './sims/Classroom';
+import Monty from './sims/Monty';
+import Test from './sims/Test';
 
 function App() {
 
@@ -10,8 +12,9 @@ function App() {
         <BrowserRouter>
             <Layout>
                 <Routes>
-                <Route exact path="/monty"></Route>
+                <Route exact path="/monty" element={<Monty/>}></Route>
                 <Route exact path="/classroom" element={<Classroom/>}></Route>
+                <Route exact path="/test" element={<Test/>}></Route>
                 </Routes>
             </Layout>
         </BrowserRouter>

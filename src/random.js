@@ -4,7 +4,7 @@ export function number(min, max) {
         min = 0;
     }
 
-    const range = [Math.min(min, max), Math.max(min, max)];
+    const range = [Math.min(min, max), Math.max(min, max) + 1];
     min = range[0];
     max = range[1];
 
@@ -14,6 +14,7 @@ export function number(min, max) {
 
 export function set(options) {
     options = {...{
+        size: undefined,
         minSize: 1, 
         maxSize: 10,
         sizeModulo: 1,
@@ -21,7 +22,7 @@ export function set(options) {
         shuffle: false,
     }, ...options};
 
-    let size = number(options.minSize, options.maxSize);
+    let size = options.size ? options.size : number(options.minSize, options.maxSize);
     if (size % options.sizeModulo !== 0) {
         size += (size % options.sizeModulo);
     }
@@ -33,6 +34,19 @@ export function set(options) {
     }
 
     return set;
+}
+
+export function chooseWhere(set, predicate) {
+    let pairs = set.map((e,i) => ({e,i}));
+
+    if (typeof predicate === "function") {
+        pairs = pairs.filter(p => predicate(p.e, p.i));
+    }
+
+    const indices = pairs.map(p => p.i);
+    const [index] = choose(indices)
+
+    return [set[index], set.filter((e,i) => i !== index)];
 }
 
 export function choose(set) {

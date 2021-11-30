@@ -57,10 +57,13 @@ export default function Classroom() {
         </ol>
 
         <h3>Results</h3>
+        
         <div>
             <label>Total Selections: </label>
             <span>{selections}</span>
         </div>
+        <br/>
+
         <div>
             <label>Girls Selected: </label>
             <span>{girlsSelected}</span>
@@ -69,6 +72,8 @@ export default function Classroom() {
             <label>% Girls Selected: </label>
             <span>{percentGirls * 100.0}%</span>
         </div>
+        <br/>
+
         <div>
             <label>Elapsed Time: </label>
             <span>{elapsedTime} seconds</span>
