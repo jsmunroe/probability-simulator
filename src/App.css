@@ -1,0 +1,41 @@
+body {
+    padding: 8px;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:active,
+a:hover {
+    text-decoration: underline;
+}
+
+div.layout {
+    display: flex;
+}
+
+div.layout aside {
+    border-right: dimgray solid 2px;
+    background: rgb(232, 245, 255);
+}
+
+div.layout aside ul {
+    margin-block: 0;
+    padding-inline-start: 0;
+}
+
+div.layout aside li {
+    list-style-type: none;
+    white-space: nowrap;
+}
+
+div.layout aside,
+div.layout article {
+    height: 90vh;
+    padding: 24px;
+}
+
+div.layout a.active {
+    font-weight: bold;
+}
