@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/static/css/main.d866ca8f.chunk.css",
-    "main.js": "/static/js/main.ac38974c.chunk.js",
-    "main.js.map": "/static/js/main.ac38974c.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.08da43a0.js",
-    "runtime-main.js.map": "/static/js/runtime-main.08da43a0.js.map",
-    "static/js/2.ac817158.chunk.js": "/static/js/2.ac817158.chunk.js",
-    "static/js/2.ac817158.chunk.js.map": "/static/js/2.ac817158.chunk.js.map",
-    "static/js/3.9128ab86.chunk.js": "/static/js/3.9128ab86.chunk.js",
-    "static/js/3.9128ab86.chunk.js.map": "/static/js/3.9128ab86.chunk.js.map",
-    "index.html": "/index.html",
-    "static/css/main.d866ca8f.chunk.css.map": "/static/css/main.d866ca8f.chunk.css.map",
-    "static/js/2.ac817158.chunk.js.LICENSE.txt": "/static/js/2.ac817158.chunk.js.LICENSE.txt"
+    "main.css": "/probability-simulator/static/css/main.d866ca8f.chunk.css",
+    "main.js": "/probability-simulator/static/js/main.718ff6db.chunk.js",
+    "main.js.map": "/probability-simulator/static/js/main.718ff6db.chunk.js.map",
+    "runtime-main.js": "/probability-simulator/static/js/runtime-main.743e6431.js",
+    "runtime-main.js.map": "/probability-simulator/static/js/runtime-main.743e6431.js.map",
+    "static/js/2.ac817158.chunk.js": "/probability-simulator/static/js/2.ac817158.chunk.js",
+    "static/js/2.ac817158.chunk.js.map": "/probability-simulator/static/js/2.ac817158.chunk.js.map",
+    "static/js/3.9128ab86.chunk.js": "/probability-simulator/static/js/3.9128ab86.chunk.js",
+    "static/js/3.9128ab86.chunk.js.map": "/probability-simulator/static/js/3.9128ab86.chunk.js.map",
+    "index.html": "/probability-simulator/index.html",
+    "static/css/main.d866ca8f.chunk.css.map": "/probability-simulator/static/css/main.d866ca8f.chunk.css.map",
+    "static/js/2.ac817158.chunk.js.LICENSE.txt": "/probability-simulator/static/js/2.ac817158.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.08da43a0.js",
+    "static/js/runtime-main.743e6431.js",
     "static/js/2.ac817158.chunk.js",
     "static/css/main.d866ca8f.chunk.css",
-    "static/js/main.ac38974c.chunk.js"
+    "static/js/main.718ff6db.chunk.js"
   ]
 }
