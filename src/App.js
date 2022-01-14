@@ -12,9 +12,9 @@ function App() {
         <BrowserRouter>
             <Layout>
                 <Routes>
-                <Route exact path="/monty" element={<Monty/>}></Route>
-                <Route exact path="/classroom" element={<Classroom/>}></Route>
-                <Route exact path="/test" element={<Test/>}></Route>
+                <Route exact path="probability-simulator/monty" element={<Monty/>}></Route>
+                <Route exact path="probability-simulator/classroom" element={<Classroom/>}></Route>
+                <Route exact path="probability-simulator/test" element={<Test/>}></Route>
                 </Routes>
             </Layout>
         </BrowserRouter>
